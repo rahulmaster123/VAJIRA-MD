@@ -1,0 +1,20 @@
+{
+  "bot-name": "VAJIRA-MD",
+  "description": "VAJIRA-MD made for people on Earth",
+  "logo": "https://files.catbox.moe/ao1lcx.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://vajira-deploy-eight.vercel.app/vajira.deploy/index.html",
+  "owner-verification": "talkdrove@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put session id",
+      "value": "",
+      "required": true
+    },
+    "MODE": {
+      "description": "number reply(nonbutton) / button reply(button) mode change",
+      "value": "nonbutton",
+      "required": false
+    }
+  }
+}
